@@ -153,6 +153,7 @@ class SearchBar extends Component {
                   {...otherLoadingProps}
                 />
               )}
+              {isEmpty && renderNode(Icon, rightIcon)}
               {!isEmpty &&
                 renderNode(Icon, clearIcon, {
                   ...defaultClearIcon,
