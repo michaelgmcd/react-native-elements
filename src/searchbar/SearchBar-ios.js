@@ -93,6 +93,7 @@ class SearchBar extends Component {
       cancelButtonProps,
       cancelButtonTitle,
       clearIcon,
+      rightIcon,
       containerStyle,
       leftIconContainerStyle,
       rightIconContainerStyle,
@@ -153,6 +154,7 @@ class SearchBar extends Component {
                   {...otherLoadingProps}
                 />
               )}
+              {isEmpty && renderNode(Icon, rightIcon)}
               {!isEmpty &&
                 renderNode(Icon, clearIcon, {
                   ...defaultClearIcon,
