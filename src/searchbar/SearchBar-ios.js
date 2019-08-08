@@ -93,6 +93,7 @@ class SearchBar extends Component {
       cancelButtonProps,
       cancelButtonTitle,
       clearIcon,
+      rightIcon,
       containerStyle,
       leftIconContainerStyle,
       rightIconContainerStyle,
